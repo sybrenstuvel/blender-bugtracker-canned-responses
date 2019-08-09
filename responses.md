@@ -7,8 +7,7 @@ Thanks for the report, but this add-on is not developed by Blender, please repor
 
 ---- DESIGN ISSUE
 
-While its disputable how this should work,
-its behaving as intended and not an error in the code.
+While its disputable how this should work, its behaving as intended and not an error in the code.
 
 Closing.
 
@@ -27,10 +26,7 @@ Closing.
 
 ---- FEATURE REQUEST
 
-Hi, while we love to hear these ideas, this is not the right place for them.
-This website is mainly used to track bug reports and not feature requests.
-But luckly, there are some other nice solutions you can take,
-so please use one of the other forms of communication listed below:
+Hi, while we love to hear these ideas, this is not the right place for them. This website is mainly used to track bug reports and not feature requests. But luckly, there are some other nice solutions you can take, so please use one of the other forms of communication listed below:
 
 - https://rightclickselect.com/
 - Fun board mailing list: https://lists.blender.org/mailman/listinfo/bf-funboard
@@ -51,22 +47,15 @@ Check terminal, for the output.
 
 ---- USERPREF WINDOW FAILS TO OPEN
 
-We have had quite a lot of reports about this,
-as far as we can tell this is a bug in some graphic card drivers
-relating to using the same OpenGL context for multiple windows
-(something which seems not to be well supported especially for low-end cards).
+We have had quite a lot of reports about this, as far as we can tell this is a bug in some graphic card drivers relating to using the same OpenGL context for multiple windows (something which seems not to be well supported especially for low-end cards).
 
-All we can suggest if to try update your graphics card drivers,
-or possibly buy a better graphics card.
+All we can suggest if to try update your graphics card drivers, or possibly buy a better graphics card.
 
-Failing that, you can workaround this by accessing the user preference
-from the window-type-selector available on the window headers.
+Failing that, you can workaround this by accessing the user preference from the window-type-selector available on the window headers.
 
 ---- MISSING INFO
 
-Please follow our submission template and guidelines and make a complete, valid bug report,
-with required info, precise description of the issue, precise steps to reproduce it,
-small and simple .blend and/or other files to do so if needed, etc.
+Please follow our submission template and guidelines and make a complete, valid bug report, with required info, precise description of the issue, precise steps to reproduce it, small and simple .blend and/or other files to do so if needed, etc.
 
 A guideline for making a good bug report can be found here:
 https://wiki.blender.org/wiki/Process/Bug_Reports
@@ -93,20 +82,16 @@ This can be disabled in the User Preferences:
 
   User Preferences -> System -> Window Draw Method -> (Set to 'No Multi-Sample')
 
-Also, this can be set in the graphics cards preferences,
-there is often an option to override, or let the application choose.
-You should set to let the application choose.
+Also, this can be set in the graphics cards preferences, there is often an option to override, or let the application choose. You should set to let the application choose.
 
-This causes problems with the selection-buffer under some configurations,
-Blender disables this via OpenGL API, but some drivers ignore the request.
+This causes problems with the selection-buffer under some configurations, Blender disables this via OpenGL API, but some drivers ignore the request.
 
 Could you see if this is causing the problem?
 
 
 ---- OPENGL RANDOM ERROR
 
-Its highly likely that this bug is specific to your hardware/driver configuration.
-These kinds of display issues are often caused by OpenGL driver bugs.
+Its highly likely that this bug is specific to your hardware/driver configuration. These kinds of display issues are often caused by OpenGL driver bugs.
 
 While its possible a software error in Blender, its worth checking if this functions correctly...
 
@@ -116,8 +101,7 @@ While its possible a software error in Blender, its worth checking if this funct
   - On Linux/macOS, Official releases come with `blender-softwaregl`
   - On MS-Windows: Download [[ https://download.blender.org/opengl/software-emulation/windows64/opengl32.dll | this dll ]] and copying it so its located in the same directory as 'blender.exe' and run Blender normally.
 
-If this is a driver bug, or we can't link to this to an error in Blender's code, the report may be closed as a driver error,
-so please help us determine whether this is a bug in Blender or not.
+If this is a driver bug, or we can't link to this to an error in Blender's code, the report may be closed as a driver error, so please help us determine whether this is a bug in Blender or not.
 
 
 ---- CRASH ON STARTUP
@@ -142,8 +126,7 @@ This is a known issue, and the good news is: it is fixed already! if you need th
 
 ---- INCOMPLETE WITHOUT REPLY
 
-Since last asking for information it has been 7 or more days, due to the policy of our bug tracker
-we will have to archive the report until the requested information is given.
+Since last asking for information it has been 7 or more days, due to the policy of our bug tracker we will have to archive the report until the requested information is given.
 
 ---- UNSUPPORTED GCN
 
